@@ -1,0 +1,29 @@
+{
+  "title": "PDF Stock Manager",
+  "slug": "pdf-stock-manager",
+  "tier": "C",
+  "status": "Archived",
+  "summary": "Stock management tool using JavaScript embedded in a PDF form, built for a Windows XP machine on a factory floor where no software installation was allowed.",
+  "tags": ["JavaScript", "Adobe Acrobat", "PDF", "Legacy Systems", "Manufacturing"],
+  "demo": "/docs/assets/demo.gif",
+  "screenshots": [
+    "/docs/assets/screenshot-01.png",
+    "/docs/assets/screenshot-02.png"
+  ],
+  "links": {
+    "live": null,
+    "github": "https://github.com/coelhof12/pdf-stock-manager",
+    "portfolio": "https://www.pixelcompile.com/pt/portfolio/pdf-stock-manager"
+  },
+  "techStack": {
+    "frontend": ["JavaScript (Acrobat PDF)", "Adobe Acrobat Pro"],
+    "backend": [],
+    "data": ["PDF Form Fields"],
+    "infra": ["Windows XP", "Adobe Reader XI"]
+  },
+  "highlights": [
+    "Zero-install solution: interactive stock tracking delivered as a single PDF file on a locked-down Windows XP system",
+    "Automatic inventory calculations using Acrobat JavaScript API -- received minus used equals current stock",
+    "Engineering under constraints: creative problem-solving when modern tools are not an option"
+  ]
+}
